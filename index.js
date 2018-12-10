@@ -4,7 +4,7 @@ const app = express();
 
 require('dotenv').config()
 
-var redirectURL = 'https://mediumbookmarkmanager/callback';
+var redirectURL = 'https://jschnapper.github.io/mediumBookmarkManager/';
 
 // alias name
 app.use('/public', express.static(path.join(__dirname, 'static')));
